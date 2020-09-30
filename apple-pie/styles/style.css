@@ -13,25 +13,19 @@ header {
     color: white;
     text-align: center;
     line-height: 15em;
-    font-size: 4em;
-    height: 1000px;
 }
 
 .main-paragraph {
-    font-size: 2em;
     text-align: justify;
-    margin: 100px 150px 50px 150px;
 }
 
 #specification-image {
     align-items: center;
-    height: 100px;
     margin-bottom: 50px;
 }
 
 #timing-image {
     align-items: center;
-    height: 100px;
     margin-bottom: 40px;
 }
 
@@ -41,10 +35,6 @@ hr {
 }
 
 h2 {
-    font-size: 2.5em;
-    margin-left: 150px;
-    margin-top: 60px;
-    margin-bottom: 50px;
     text-align: left;
 }
 
@@ -70,8 +60,109 @@ ol > li:before {
 }
 
 li {
-    font-size: 1.75em;
-    margin-left: 150px;
-    margin-right: 150px;
     text-align: left;
+}
+
+@media (min-width: 320px) {
+    header {
+        font-size: 1.2em;
+        height: 300px;
+    }
+    
+    .main-paragraph {
+        font-size: 1rem;
+        margin: 2rem;
+    }
+    
+    #specification-image {
+        height: 50px;
+        margin-bottom: 25px;
+    }
+    
+    #timing-image {
+        height: 65px;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+        margin: 2rem;
+    }
+
+    li {
+        font-size: 1rem;
+        margin: 0 2rem;
+    }
+}
+
+@media (min-width: 700px) {
+    header {
+        font-size: 1.8em;
+        height: 450px;
+    }
+    
+    .main-paragraph {
+        font-size: 1rem;
+        margin: 2rem;
+    }
+    
+    #specification-image {
+        height: 70px;
+        margin-bottom: 25px;
+    }
+    
+    #timing-image {
+        height: 95px;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+        margin: 2rem;
+    }
+
+    li {
+        font-size: 1rem;
+        margin: 0 2rem;
+    }
+}
+
+@media (min-width: 900px) {
+    header {
+        font-size: 4em;
+        height: 1000px;
+    }
+    
+    .main-paragraph {
+        font-size: 2em;
+        margin: 100px 150px 50px 150px;
+    }
+    
+    #specification-image {
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    
+    #timing-image {
+        height: 100px;
+        margin-bottom: 40px;
+    }
+    
+    hr {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    h2 {
+        font-size: 2.5em;
+        margin-left: 150px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    
+    li {
+        font-size: 1.75em;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 }
